@@ -84,4 +84,56 @@ nav li {
 /* banner image setup */
 .picture-of-architect {
     margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+/* features-of-archites-parts */
+
+.features-container {
+    display: flex;
+}
+
+.feature-picture {
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    margin-left: 250px;
+}
+
+.features-description {
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 537px;
+}
+
+.title-1st-half {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+.title-2nd-half {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.title-last-half {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+h2 {
+    width: 468px;
+}
+
+.features-about {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
