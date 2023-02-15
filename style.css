@@ -1,0 +1,87 @@
+/* nav style */
+* {
+    margin: 0;
+}
+
+.overall-architect {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 226px;
+    padding-top: 50px;
+
+}
+
+nav h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Work Sans';
+}
+
+/* Brand-new-architect  part */
+
+.architect-container {
+    width: 862px;
+    left: 529px;
+    top: 205px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+
+
+}
+
+.architect-title {
+    color: #131313;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+
+
+}
+
+.architect-description {
+    color: #727272;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* banner image setup */
+.picture-of-architect {
+    margin-left: 300px;
+}
